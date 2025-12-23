@@ -1,0 +1,51 @@
+Sistem Pemesanan Tiket Bioskop
+
+Aplikasi desktop sederhana untuk pemesanan tiket bioskop menggunakan Java Swing.
+Program ini dibuat untuk memenuhi UAP (Ujian Akhir Praktikum) mata kuliah
+Pemrograman Lanjut.
+
+## Deskripsi
+Aplikasi ini digunakan untuk mengelola data pemesanan tiket bioskop.
+Pengguna dapat menambahkan data tiket, melihat daftar tiket, mengubah jumlah tiket,
+menghapus data, serta melihat riwayat pemesanan.
+Data disimpan menggunakan file CSV sehingga data tidak hilang saat aplikasi ditutup.
+
+## Fitur
+- Menambahkan data pemesanan tiket
+- Menampilkan list data tiket
+- Mengedit jumlah tiket
+- Menghapus data tiket
+- Menampilkan riwayat pemesanan
+- Penyimpanan data menggunakan file CSV
+
+## Teknologi yang Digunakan
+- Java
+- Java Swing
+- File Handling (CSV)
+- ArrayList
+- LocalDate
+- Comparator
+
+## Cara Menjalankan Program
+1. Clone repository GitHub
+2. Buka project menggunakan IntelliJ IDEA
+3. Jalankan file `BioskopApp.java`
+4. Aplikasi siap digunakan
+
+## Struktur Folder
+- gui : berisi tampilan aplikasi (Dashboard, Form, List, Riwayat)
+- model : berisi class Tiket
+- util : berisi FileHelper dan Theme
+- main : berisi class utama aplikasi
+
+## Pengujian
+Pengujian dilakukan secara manual dengan cara:
+- Menambahkan data tiket melalui form
+- Memastikan data muncul di list tiket
+- Mengedit jumlah tiket dan mengecek perubahan
+- Menghapus data tiket
+- Menutup dan membuka kembali aplikasi untuk memastikan data tetap tersimpan
+
+## Anggota Kelompok
+- Nurul Anis – 202410370110261
+- Andis Saskia – 202410370110274
