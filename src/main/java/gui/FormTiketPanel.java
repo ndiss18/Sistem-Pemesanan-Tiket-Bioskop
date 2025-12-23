@@ -25,7 +25,7 @@ public class FormTiketPanel extends JPanel {
         gbc.insets = new Insets(10, 10, 10, 10);
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        JLabel title = new JLabel("🎟️ Pesan Tiket Bioskop");
+        JLabel title = new JLabel("Pesan Tiket Bioskop");
         title.setFont(Theme.TITLE);
         title.setForeground(Theme.ACCENT);
 
@@ -99,16 +99,16 @@ public class FormTiketPanel extends JPanel {
 
             BioskopApp.card.show(BioskopApp.content, "list");
 
-            JOptionPane.showMessageDialog(this, "✅ Tiket berhasil disimpan");
+            JOptionPane.showMessageDialog(this, "Tiket berhasil disimpan");
 
             tfNama.setText("");
             tfFilm.setText("");
             tfJumlah.setText("");
 
         } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(this, "❌ Jumlah tiket harus berupa angka");
+            JOptionPane.showMessageDialog(this, "Jumlah tiket harus berupa angka");
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(this, "❌ Semua field wajib diisi");
+            JOptionPane.showMessageDialog(this, "Semua field wajib diisi");
         }
     }
 

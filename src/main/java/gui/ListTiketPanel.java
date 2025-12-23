@@ -75,7 +75,7 @@ public class ListTiketPanel extends JPanel {
     private void editJumlah() {
         int row = table.getSelectedRow();
         if (row == -1) {
-            JOptionPane.showMessageDialog(this, "❗ Pilih data terlebih dahulu");
+            JOptionPane.showMessageDialog(this, "Pilih data terlebih dahulu");
             return;
         }
 
@@ -85,7 +85,7 @@ public class ListTiketPanel extends JPanel {
         try {
             int jumlahBaru = Integer.parseInt(input);
             if (jumlahBaru <= 0) {
-                JOptionPane.showMessageDialog(this, "❌ Jumlah harus lebih dari 0");
+                JOptionPane.showMessageDialog(this, "Jumlah harus lebih dari 0");
                 return;
             }
 

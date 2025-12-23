@@ -19,7 +19,7 @@ public class RiwayatPanel extends JPanel {
         setLayout(new BorderLayout());
         setBackground(Theme.BG_MAIN);
 
-        JLabel title = new JLabel("📜 Riwayat Pemesanan Tiket");
+        JLabel title = new JLabel("Riwayat Pemesanan Tiket");
         title.setFont(Theme.TITLE);
         title.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
         add(title, BorderLayout.NORTH);
@@ -38,8 +38,8 @@ public class RiwayatPanel extends JPanel {
         table.setRowHeight(28);
         table.setFont(Theme.NORMAL);
         table.getTableHeader().setFont(Theme.NORMAL);
-        table.setShowGrid(true);              // ⬅️ GARIS TABEL
-        table.setGridColor(Color.GRAY);       // ⬅️ WARNA GARIS
+        table.setShowGrid(true);
+        table.setGridColor(Color.GRAY);
         table.setSelectionBackground(Theme.ACCENT);
 
         JScrollPane scroll = new JScrollPane(table);
